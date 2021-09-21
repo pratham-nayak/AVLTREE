@@ -16,8 +16,10 @@ Here we can see an implementation of the AVL Tree (Self Balancing Binary Search 
 - For a tree to be balanced, the value has to only be -1, 0, 1. <br />
 - Balance(tree) = height of (Tree. Left) – height of (Tree. Right) <br />
          `[bf = hl – hr = {-1,0,1} ; |bf| = |hl-hr| =< 1]`
-         
-![AVL Tree with balance factors (green)](https://en.wikipedia.org/wiki/AVL_tree#/media/File:AVL-tree-wBalance_K.svg)
+
+<br>
+<img height = "250" src="https://upload.wikimedia.org/wikipedia/commons/a/ad/AVL-tree-wBalance_K.svg" />
+<br>
 
 ## Determining which rotation to use
 - If the unbalance node’s height is:<br />
@@ -31,9 +33,9 @@ Here we can see an implementation of the AVL Tree (Self Balancing Binary Search 
 	       - Negative: RR Rotation (Example: Height = -1)<br />
 
 Note:
--	Always place the child to the correct parent after each rotation!<br />
--	RR Rotation and LL rotation are considered to be a single rotation<br />
+- Always place the child to the correct parent after each rotation!<br />
+- RR Rotation and LL rotation are considered to be a single rotation<br />
   - It is dealing with the outside insertions.<br />
 
--	RL rotation and LR rotation are consider to be a double rotation<br />
+- RL rotation and LR rotation are consider to be a double rotation<br />
   - It is dealing with the inside insertions.
